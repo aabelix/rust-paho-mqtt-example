@@ -1,0 +1,10 @@
+[package]
+
+name = "rust-paho-mqtt-example"
+version = "0.0.1"
+authors = ["Aapo Naalisvaara <aapo.naalisvaara@gmail.com>"]
+
+[dependencies]
+paho-mqtt = { version = "0.12.3", default-features = false, features = [
+    "bundled",
+] }
